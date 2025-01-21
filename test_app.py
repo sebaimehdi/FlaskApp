@@ -1,5 +1,5 @@
 import pytest
-from app import app
+from FlaskApp import app
 def test_index():
     tester = app.test_client()
     response = tester.get('/')
