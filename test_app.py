@@ -1,5 +1,9 @@
 import pytest
-from FlaskApp import app
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
+from app import app
 def test_index():
     tester = app.test_client()
     response = tester.get('/')
