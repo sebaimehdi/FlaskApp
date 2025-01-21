@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Commande pour exécuter l'application Flask
-CMD ["python", "FlaskApp.py"]
+CMD ["python", "app.py"]
