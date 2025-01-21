@@ -39,8 +39,8 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "Test Failure Notification"
           body: "One or more tests have failed. Please check the workflow logs for details."
-          to: "your-email@example.com"
-          from: "ci-notifications@example.com"
+          to: "mehdi.sebai08@gmail.com"
+          from: "mehdi.sebai08@gmail.com"
 
   build:
     runs-on: ubuntu-latest
